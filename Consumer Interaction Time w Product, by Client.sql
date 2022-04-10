@@ -22,7 +22,6 @@ GROUP BY CompanyID
 Having Count(Distinct(OrderID)) >= 10
 ORDER BY Count(Distinct(OrderID))
 
-/*84.3% of borrowers go to the FI selection page*/
 
 
 
