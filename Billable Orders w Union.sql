@@ -7,7 +7,7 @@
 	[Product#1 ID],
 	[Product#2 ID] = NULL,
 	CustomerID,
-	[Verification OrderCompletionDate],
+	[OrderCompletionDate],
 	[Product Type] = 'Product#1',
 	[Product#1 Price],
 	[Product#2 Price] = 0
@@ -27,7 +27,7 @@ UNION stacks them together */
 	[Product#1 ID] = NULL,
 	[Product#2 ID],
 	CustomerID,
-	[Verification OrderCompletionDate],
+	[OrderCompletionDate],
 	[Product Type] = 'Product#2',
 	[Product#1 Price] = 0,
 	CASE WHEN v2.BillingEvent=0 THEN  15 WHEN v2.BillingEvent = 1 THEN 5 ELSE null END AS [Product#2 Price]
