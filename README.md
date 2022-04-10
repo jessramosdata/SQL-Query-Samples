@@ -29,9 +29,13 @@ This space includes sample SQL queries that have been adjusted and anonymized fr
 
 ## Excluded but familiar concepts:
 
+-Parsing JSONs & XML
+
 -Creating views
 
 -Engineering tables
 
 -Update/Insert/Delete scripts
+
+-Importing backpack file to create database
 
