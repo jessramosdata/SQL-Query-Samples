@@ -26,6 +26,8 @@ This space includes sample SQL queries that have been adjusted and anonymized fr
 -Max/Min/Average
 
 
+-Over/Partition By
+
 
 ## Excluded but familiar concepts:
 
