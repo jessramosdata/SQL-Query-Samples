@@ -9,8 +9,6 @@ This space includes sample SQL queries that have been adjusted and anonymized fr
 
 -Union
 
--Lag
-
 -Subqueries
 
 -Case When
@@ -29,9 +27,13 @@ This space includes sample SQL queries that have been adjusted and anonymized fr
 -Over/Partition By
 
 
-## Excluded but familiar concepts:
+## Familiar concepts:
+
+-Data Modeling
 
 -Parsing JSONs & XML
+
+-Lead/Lag
 
 -Creating views
 
