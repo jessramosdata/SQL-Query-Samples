@@ -11,7 +11,7 @@ This space includes sample SQL queries that have been adjusted and anonymized fr
 
 -Subqueries
 
--Case When
+-Case When, SUM(CASE WHEN...)
 
 -DateDiff
 
