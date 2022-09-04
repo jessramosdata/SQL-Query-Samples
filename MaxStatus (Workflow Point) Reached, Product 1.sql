@@ -3,7 +3,7 @@
 --This helps identify fallout points and determine how to increase the order completion rate.
 
 WITH StatusLevels AS(
-SELECT vr.OrderID, vsl.PreviousStatus, vsl.NewStatus, vsl.StatusTimestamp, [VOA Order Date], [CurrentStatus], CompanyID,
+SELECT vr.OrderID, vsl.PreviousStatus, vsl.NewStatus, vsl.StatusTimestamp, [Order Date], [CurrentStatus], CompanyID,
 
 CASE 
 	WHEN vsl.NewStatus = 111 THEN 0
